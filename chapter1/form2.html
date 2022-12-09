@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Εισαγωγή Στοιχείων Εκπαιδευόμενου</title>
+</head>
+<body>
+
+    <form>
+        <fieldset style="width: 450px;">
+        <legend>Fristname/Lastname</legend>
+        <div>
+            <label for="firstname">Firstname</label>
+            <input type="text" name="fistname" id="firstname">
+        </div>
+        <div>
+            <label for="lastname">Lastname</label>
+            <input type="text" name="lastname" id="lastname">
+        </div>
+
+        </fieldset>
+        <div>
+            <div><input type="radio" name="genger" id="male" value="male" checked>
+            <label for="male">Male</label></div>
+            <div><input type="radio" name="genger" id="female" value="female">
+            <label for="female">Female</label></div>
+        </div>
+            
+        <div>
+            <label for="level">Education Level</label>
+            <select name="level" id="level">
+                <option value="1">BSc</option>
+                <option value="2">MSc</option>
+                <option value="3">PhD</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="submission-date">Submisson Date</label>
+            <input type="date" id="submission-date" placeholder="DD/MM/YY" maxlength="8" dateFormat ="dd-mm-yy" required>
+        </div>
+
+        <div><input type="submit" value="submit"></div>
+    </form>
+
+</body>
+</html>
